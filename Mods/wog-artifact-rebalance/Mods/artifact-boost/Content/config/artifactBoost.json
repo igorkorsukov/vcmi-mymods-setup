@@ -1,0 +1,606 @@
+{
+	"core:birdOfPerception": {
+		"bonuses": {
+			"eagleEye": {
+				"type": "LEARN_BATTLE_SPELL_CHANCE",
+				"val": 5,
+				"valueType": "ADDITIVE_VALUE"
+			},
+			"levelGrowth": {
+				"type": "CREATURE_GROWTH",
+				"subtype": "creatureLevel3",
+				"val": 6,
+				"propagator": "TOWN_AND_VISITOR"
+			}
+		}
+	},
+	"core:pendantOfLife": {
+		"bonuses": {
+			"immunity": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.deathRipple",
+				"val": 0,
+				"valueType": "BASE_NUMBER"
+			},
+			"spriteGrowth": {
+				"type": "CREATURE_GROWTH",
+				"subtype": "creatureLevel1",
+				"val": 24,
+				"propagator": "TOWN_AND_VISITOR"
+			}
+		}
+	},
+	"core:pendantOfDeath": {
+		"bonuses": {
+			"immunity": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.destroyUndead",
+				"val": 0,
+				"valueType": "BASE_NUMBER",
+				"limiters": [
+					"IS_UNDEAD"
+				]
+			},
+			"undeadAttack": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 2,
+				"valueType": "BASE_NUMBER",
+				"limiters": [
+					"IS_UNDEAD"
+				]
+			},
+			"undeadDefence": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 2,
+				"valueType": "BASE_NUMBER",
+				"limiters": [
+					"IS_UNDEAD"
+				]
+			}
+		}
+	},
+	"core:pendantOfTotalRecall": {
+		"bonuses": {
+			"immunity": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.forgetfulness",
+				"val": 0,
+				"valueType": "BASE_NUMBER"
+			},
+			"precision": {
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.precision",
+				"val": 50,
+				"valueType": "BASE_NUMBER",
+				"addInfo": 3
+			}
+		}
+	},
+	"core:emblemOfCognizance": {
+		"instanceBonuses": {
+			"eagleEye": {
+				"type": "LEARN_BATTLE_SPELL_CHANCE",
+				"val": 15,
+				"valueType": "ADDITIVE_VALUE",
+				"stacking": "ALWAYS"
+			},
+			"gold": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gold",
+				"val": 2,
+				"valueType": "BASE_NUMBER",
+				"stacking": "ALWAYS",
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"stepSize": 1
+				}
+			}
+		}
+	},
+	"core:stoicWatchman": {
+		"bonuses": {
+			"eagleEye": {
+				"type": "LEARN_BATTLE_SPELL_CHANCE",
+				"val": 10,
+				"valueType": "ADDITIVE_VALUE"
+			},
+			"sight": {
+				"type": "SIGHT_RADIUS",
+				"val": 5,
+				"valueType": "BASE_NUMBER"
+			}
+		}
+	},
+	"core:pendantOfSecondSight": {
+		"bonuses": {
+			"immunity": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.blind",
+				"val": 0,
+				"valueType": "BASE_NUMBER"
+			},
+			"archer2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.archer",
+				"addInfo": "creature.marksman"
+			},
+			"woodElf2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.woodElf",
+				"addInfo": "creature.grandElf"
+			},
+			"gremlin2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.gremlin",
+				"addInfo": "creature.masterGremlin"
+			},
+			"gog2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.gog",
+				"addInfo": "creature.magog"
+			},
+			"beholder2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.beholder",
+				"addInfo": "creature.evilEye"
+			},
+			"orc2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.orc",
+				"addInfo": "creature.orcChieftain"
+			},
+			"lizardman2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.lizardman",
+				"addInfo": "creature.lizardWarrior"
+			},
+			"airElemental2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.airElemental",
+				"addInfo": "creature.stormElemental"
+			},
+			"airShield": {
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.airShield",
+				"val": 50,
+				"valueType": "BASE_NUMBER",
+				"addInfo": 3
+			}
+		}
+	},
+	"core:pendantOfHoliness": {
+		"bonuses": {
+			"immunity": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.curse",
+				"val": 0,
+				"valueType": "BASE_NUMBER"
+			},
+			"knowsBless": {
+				"type": "SPELL",
+				"subtype": "spell.bless",
+				"val": 1,
+				"valueType": "INDEPENDENT_MAX"
+			},
+			"knowsCure": {
+				"type": "SPELL",
+				"subtype": "spell.cure",
+				"val": 1,
+				"valueType": "INDEPENDENT_MAX"
+			},
+			"knowsPrayer": {
+				"type": "SPELL",
+				"subtype": "spell.prayer",
+				"val": 1,
+				"valueType": "INDEPENDENT_MAX"
+			},
+			"bless": {
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.bless",
+				"val": 50,
+				"valueType": "BASE_NUMBER",
+				"addInfo": 3
+			}
+		}
+	},
+	"core:bootsOfPolarity": {
+		"bonuses": {
+			"resistance": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 15,
+				"valueType": "BASE_NUMBER"
+			},
+			"movement": {
+				"type": "MOVEMENT",
+				"subtype": "heroMovementLand",
+				"val": 300,
+				"valueType": "ADDITIVE_VALUE"
+			}
+		}
+	},
+	"core:garnitureOfInterference": {
+		"bonuses": {
+			"resistance": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 5,
+				"valueType": "BASE_NUMBER"
+			},
+			"magicSchool": {
+				"type": "MAGIC_SCHOOL_SKILL",
+				"subtype": "spellSchool.any",
+				"val": 1,
+				"valueType": "INDEPENDENT_MAX"
+			}
+		}
+	},
+	"core:pendantOfDispassion": {
+		"bonuses": {
+			"immunity": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.berserk",
+				"val": 0,
+				"valueType": "BASE_NUMBER"
+			},
+			"knowledge": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val": 1,
+				"valueType": "BASE_NUMBER"
+			},
+			"bloodlust": {
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.bloodlust",
+				"val": 50,
+				"valueType": "BASE_NUMBER",
+				"addInfo": 3
+			}
+		}
+	},
+	"core:pendantOfFreeWill": {
+		"bonuses": {
+			"immunity": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.hypnotize",
+				"val": 0,
+				"valueType": "BASE_NUMBER"
+			},
+			"peasant2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.peasant",
+				"addInfo": "creature.rogue"
+			},
+			"stoneGolem2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.stoneGolem",
+				"addInfo": "creature.ironGolem"
+			},
+			"ironGolem2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.ironGolem",
+				"addInfo": "creature.goldGolem"
+			},
+			"goldGolem2": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.goldGolem",
+				"addInfo": "creature.diamondGolem"
+			},
+			"stoneSkin": {
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.stoneSkin",
+				"val": 50,
+				"valueType": "BASE_NUMBER",
+				"addInfo": 3
+			}
+		}
+	},
+	"core:diplomatsRing": {
+		"bonuses": {
+			"diplomacy": {
+				"type": "SURRENDER_DISCOUNT",
+				"val": 10,
+				"valueType": "BASE_NUMBER"
+			},
+			"gold": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gold",
+				"val": 500,
+				"valueType": "BASE_NUMBER"
+			}
+		}
+	},
+	"core:surcoatOfCounterpoise": {
+		"bonuses": {
+			"resistance": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 10,
+				"valueType": "BASE_NUMBER"
+			},
+			"knowledge": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val": 1,
+				"valueType": "BASE_NUMBER"
+			},
+			"sight": {
+				"type": "SIGHT_RADIUS",
+				"val": 3,
+				"valueType": "BASE_NUMBER"
+			},
+			"gold": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gold",
+				"val": 1000,
+				"valueType": "BASE_NUMBER"
+			}
+		}
+	},
+	"core:orbOfVulnerability": {
+		"bonuses": {
+			"noImmunities": {
+				"type": "NEGATE_ALL_NATURAL_IMMUNITIES",
+				"subtype": "immunityBattleWide",
+				"val": 0,
+				"valueType": "BASE_NUMBER",
+				"propagator": "BATTLE_WIDE"
+			},
+			"noEnemyImmunities": {
+				"type": "NEGATE_ALL_NATURAL_IMMUNITIES",
+				"subtype": "immunityEnemyHero",
+				"val": 0,
+				"valueType": "BASE_NUMBER"
+			},
+			"noResistance": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 0,
+				"description": "PLACEHOLDER",
+				"valueType": "INDEPENDENT_MIN",
+				"propagator": "BATTLE_WIDE"
+			},
+			"noResistanceAura": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 0,
+				"valueType": "INDEPENDENT_MIN",
+				"description": "@artifact.core.orbOfVulnerability.bonus.noResistance",
+				"propagator": "BATTLE_WIDE"
+			},
+			"archMageGrowth": {
+				"type": "CREATURE_GROWTH",
+				"subtype": "creatureLevel6",
+				"val": 1,
+				"propagator": "TOWN_AND_VISITOR"
+			},
+			"disease": {
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.disease",
+				"val": 50,
+				"valueType": "BASE_NUMBER",
+				"addInfo": 3
+			}
+		}
+	},
+	"core:sphereOfPermanence": {
+		"bonuses": {
+			"noDispel": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.dispel",
+				"addInfo": 1
+			},
+			"noDispelHelpful": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.dispelHelpful",
+				"addInfo": 1
+			},
+			"griffinGrowth": {
+				"type": "CREATURE_GROWTH",
+				"subtype": "creatureLevel5",
+				"val": 2,
+				"propagator": "TOWN_AND_VISITOR"
+			}
+		}
+	},
+	"core:statesmansMedal": {
+		"bonuses": {
+			"diplomacy": {
+				"type": "SURRENDER_DISCOUNT",
+				"val": 10,
+				"valueType": "BASE_NUMBER"
+			},
+			"gold": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gold",
+				"val": 500,
+				"valueType": "BASE_NUMBER"
+			}
+		}
+	},
+	"core:targOfTheRampagingOgre": {
+		"bonuses": {
+			"defence": {
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 5,
+				"valueType": "BASE_NUMBER"
+			},
+			"experience": {
+				"type": "HERO_EXPERIENCE_GAIN_PERCENT",
+				"val": 5,
+				"valueType": "ADDITIVE_VALUE"
+			}
+		}
+	},
+	"core:deadMansBoots": {
+		"instanceBonuses": {
+			"necromancy": {
+				"type": "UNDEAD_RAISE_PERCENTAGE",
+				"val": 15,
+				"valueType": "ADDITIVE_VALUE"
+			},
+			"undeadSpeed": {
+				"type": "STACKS_SPEED",
+				"val": 2,
+				"valueType": "BASE_NUMBER",
+				"limiters": [
+					"IS_UNDEAD"
+				]
+			}
+		}
+	},
+	"core:ambassadorsSash": {
+		"bonuses": {
+			"gold": {
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gold",
+				"val": 500,
+				"valueType": "BASE_NUMBER"
+			}
+		}
+	},
+	"core:collarOfConjuring": {
+		"bonuses": {
+			"experience": {
+				"type": "HERO_EXPERIENCE_GAIN_PERCENT",
+				"val": 10,
+				"valueType": "ADDITIVE_VALUE"
+			}
+		}
+	},
+	"core:orbOfTheFirmament": {
+		"bonuses": {
+			"protectAir": {
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.protectAir",
+				"val": 50,
+				"valueType": "BASE_NUMBER",
+				"addInfo": 3
+			}
+		}
+	},
+	"core:orbOfSilt": {
+		"bonuses": {
+			"protectEarth": {
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.protectEarth",
+				"val": 50,
+				"valueType": "BASE_NUMBER",
+				"addInfo": 3
+			}
+		}
+	},
+	"core:orbOfTempestuousFire": {
+		"bonuses": {
+			"protectFire": {
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.protectFire",
+				"val": 50,
+				"valueType": "BASE_NUMBER",
+				"addInfo": 3
+			}
+		}
+	},
+	"core:orbOfDrivingRain": {
+		"bonuses": {
+			"protectWater": {
+				"type": "OPENING_BATTLE_SPELL",
+				"subtype": "spell.protectWater",
+				"val": 50,
+				"valueType": "BASE_NUMBER",
+				"addInfo": 3
+			}
+		}
+	},
+	"core:ringOfConjuring": {
+		"bonuses": {
+			"spellDamage": {
+				"type": "SPELL_DAMAGE",
+				"subtype": "spellSchool.any",
+				"val": 10,
+				"valueType": "BASE_NUMBER"
+			}
+		}
+	},
+	"core:capeOfConjuring": {
+		"bonuses": {
+			"spellDamage": {
+				"type": "SPELL_DAMAGE",
+				"subtype": "spellSchool.any",
+				"val": 15,
+				"valueType": "BASE_NUMBER"
+			}
+		}
+	},
+	"core:ringOfTheMagi": {
+		"bonuses": {
+			"spellDamage": {
+				"type": "SPELL_DAMAGE",
+				"subtype": "spellSchool.any",
+				"val": 20,
+				"valueType": "BASE_NUMBER"
+			}
+		}
+	},
+	"core:vampiresCowl": {
+		"bonuses": {
+			"vampireUpgrade": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.vampire",
+				"addInfo": "creature.vampireLord"
+			}
+		}
+	},
+	"core:amuletOfTheUndertaker": {
+		"bonuses": {
+			"walkingDeadUpgrade": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.walkingDead",
+				"addInfo": "creature.zombieLord"
+			}
+		}
+	},
+	"core:centaurAxe": {
+		"bonuses": {
+			"centaurUpgrade": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.centaur",
+				"addInfo": "creature.centaurCaptain"
+			}
+		}
+	},
+	"core:shieldOfTheDwarvenLords": {
+		"bonuses": {
+			"dwarfUpgrade": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.dwarf",
+				"addInfo": "creature.battleDwarf"
+			}
+		}
+	},
+	"core:breastplateOfPetrifiedWood": {
+		"bonuses": {
+			"dendroidUpgrade": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.dendroidGuard",
+				"addInfo": "creature.dendroidSoldier"
+			}
+		}
+	},
+	"core:helmOfTheAlabasterUnicorn": {
+		"bonuses": {
+			"unicornUpgrade": {
+				"type": "SPECIAL_UPGRADE",
+				"subtype": "creature.unicorn",
+				"addInfo": "creature.warUnicorn"
+			}
+		}
+	},
+	"core:speculum": {
+		"bonuses#override": {
+			"sight": {
+				"type": "SIGHT_RADIUS",
+				"val": 2,
+				"valueType": "BASE_NUMBER"
+			}
+		}
+	}
+}

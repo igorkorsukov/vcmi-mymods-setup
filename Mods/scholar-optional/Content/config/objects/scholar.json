@@ -1,0 +1,38 @@
+{
+	"core:scholar": {
+		"base": {
+			"canRefuse": true
+		},
+		"types": {
+			"scholar": {
+				"onSelectMessage": "{Scholar}\r\n\r\nRiding into a clearing, you see a scholarly sage resting by his horse. He agrees to share some of his knowledge with you before continuing on his way.\r\n\r\nAccept his lesson?",
+				"rewards": {
+					"modify@1": {
+						"message": "{Scholar}\r\n\r\nRiding into a clearing, you see a scholarly sage resting by his horse. He agrees to share some of his knowledge with you before continuing on his way.\r\n\r\nAccept his lesson?"
+					},
+					"modify@2": {
+						"message": "{Scholar}\r\n\r\nRiding into a clearing, you see a scholarly sage resting by his horse. He agrees to share some of his knowledge with you before continuing on his way.\r\n\r\nAccept his lesson?"
+					},
+					"modify@3": {
+						"message": "{Scholar}\r\n\r\nRiding into a clearing, you see a scholarly sage resting by his horse. He agrees to share some of his knowledge with you before continuing on his way.\r\n\r\nAccept his lesson?"
+					}
+				}
+			}
+		}
+	},
+	"core:witchHut": {
+		"base": {
+			"canRefuse": true
+		},
+		"types": {
+			"witchHut": {
+				"onSelectMessage": "{Witch Hut}\r\n\r\nAn ancient witch, living in a miserable hovel, greets you and offers to teach you %s for purposes known only to her.\r\n\r\nAccept her lesson?",
+				"rewards": {
+					"modify@1": {
+						"message": "{Witch Hut}\r\n\r\nAn ancient witch, living in a miserable hovel, greets you and offers to teach you %s for purposes known only to her.\r\n\r\nAccept her lesson?"
+					}
+				}
+			}
+		}
+	}
+}

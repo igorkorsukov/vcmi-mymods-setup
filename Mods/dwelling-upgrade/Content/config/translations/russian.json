@@ -1,0 +1,4 @@
+{
+	"vcmi.adventureMap.dwellingUpgrade" : "{%s}\n\nХотите улучшить это жилище? Требуется мифрила:",
+	"vcmi.adventureMap.dwellingUpgradeNoResources" : "{%s}\n\nУлучшить жилище нельзя: не хватает ресурсов. Требуется мифрила:"
+}

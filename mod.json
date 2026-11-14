@@ -1,0 +1,22 @@
+{
+	"name": "Addition to The Wake of Gods",
+	"description": "An addition to the Wake of Gods mod that makes the game behave closer to the original WoG with certain settings enabled.\n\nWhat exactly it changes is described in the description of each sub-mod.\n\nEvery part can be switched on or off separately in the Launcher.\n\n## Ready-made preset\n\nThe mod folder contains a preset file that turns on the recommended combination and switches off the parts of the Wake of Gods mod that do not match the original game: the alternative graphics, animated objects, battle decorations, the replacement main menu and icons, the mithril mines and the substitute commander gems.\n\nTo apply it, open the Launcher, go to Mods, open Presets and use Import. A mod cannot switch other mods off by itself, so this has to be done once through the Launcher.",
+	"author": "Igor Korsukov",
+	"version": "1.0",
+	"modType": "Expansion",
+	"compatibility": {
+		"min": "1.7.0"
+	},
+	"depends": [
+		"wake-of-gods"
+	],
+	"changelog": {
+		"1.0": [
+			"All local WoG-inspired tweaks gathered into a single meta-mod"
+		]
+	},
+	"russian": {
+		"name": "Дополнение к The Wake of Gods",
+		"description": "Дополнение к моду The Wake of Gods, которое делает поведение игры более похожим на оригинальный WoG с определёнными настройками.\n\nЧто именно меняется, можно узнать в описании подмодов.\n\nКаждую часть можно включить или отключить отдельно в лаунчере.\n\n## Готовый набор настроек\n\nВ папке мода лежит файл с готовым набором модов. Он включает рекомендованную комбинацию и убирает те части дополнения Wake of Gods, что не соответствуют оригинальной игре: альтернативную графику, анимированные объекты, украшения боя, замену главного меню и иконок, мифриловые шахты и подмену камней командиров.\n\nЧтобы применить его, откройте лаунчер, зайдите в раздел модов, затем в наборы настроек и используйте импорт. Мод не может отключать другие моды сам, поэтому это нужно сделать один раз через лаунчер."
+	}
+}

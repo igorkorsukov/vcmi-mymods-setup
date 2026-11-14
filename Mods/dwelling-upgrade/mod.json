@@ -1,0 +1,30 @@
+{
+	"name": "Dwelling Upgrade for Mithril",
+	"description": "Lets you upgrade external dwellings for mithril, as in the original Wake of Gods.\n\nHow it works:\n\n- **Right-click** a dwelling you own on the adventure map, and you will be asked whether to upgrade it\n- The dialog shows how much mithril the upgrade costs, so there are no surprises\n- After upgrading, the dwelling offers the upgraded creatures instead of the basic ones, e.g. Royal Griffins instead of Griffins\n- The upgrade is permanent for that dwelling on the map and is stored in saved games\n\nWhat is affected:\n\n- All neutral dwellings that have an upgraded counterpart, both single-creature and the special ones (Elemental Conflux, Golem Factory)\n- The price depends on the creature level: 2 mithril for levels 1-2, 3 for levels 3-4, 4 for levels 5-6 and 5 for level 7\n- Dwellings with no upgrade at all (Peasant Hovel, Boar Glen, Troll Bridge and similar) stay as they are\n- Towns are not affected - they upgrade their dwellings through buildings as usual\n\nUpgrading does not add extra creatures: the dwelling keeps the amount it already has, it only switches to the improved creatures. Requires the Mithril Resource mod, which provides the mithril itself.",
+	"author": "Igor Korsukov",
+	"version": "1.0",
+	"modType": "Mechanics",
+	"compatibility": {
+		"min": "1.7.0"
+	},
+	"depends": [
+		"mymods-setup.mithril-sources"
+	],
+	"changelog": {
+		"1.0": [
+			"External dwellings can be upgraded for mithril",
+			"Cost depends on creature level: 2 to 5 mithril",
+			"Upgraded creatures are resolved from the creature upgrade graph"
+		]
+	},
+	"objects": [
+		"config/dwellings.json"
+	],
+	"russian": {
+		"name": "Улучшение жилищ за мифрил",
+		"description": "Позволяет улучшать внешние жилища за мифрил, как в оригинальном Wake of Gods.\n\nКак это работает:\n\n- **Нажмите правой кнопкой** на принадлежащее вам жилище на карте приключений, и появится предложение его улучшить\n- В диалоге показано, сколько мифрила стоит улучшение, так что сюрпризов не будет\n- После улучшения жилище предлагает улучшенных существ вместо базовых, например королевских грифонов вместо грифонов\n- Улучшение постоянно для этого жилища на карте и сохраняется в сохранениях\n\nЧто затронуто:\n\n- Все нейтральные жилища, у которых есть улучшенный вариант, как обычные, так и особые (Конфлюкс, Фабрика големов)\n- Цена зависит от уровня существа: 2 мифрила для уровней 1-2, 3 для уровней 3-4, 4 для уровней 5-6 и 5 для 7-го уровня\n- Жилища без улучшений (Хижина крестьян, Логово кабанов, Мост троллей и подобные) остаются как есть\n- Города не затронуты — их жилища улучшаются постройками, как обычно\n\nУлучшение не добавляет существ: жилище сохраняет уже имеющееся количество и лишь переключается на улучшенных существ. Требуется мод Mithril Resource, который и даёт мифрил.",
+		"translations": [
+			"config/translations/russian.json"
+		]
+	}
+}

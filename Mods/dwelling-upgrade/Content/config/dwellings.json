@@ -1,0 +1,81 @@
+{
+	// creatureGeneratorCommon
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"centaurStables" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 1
+			"cursedTemple" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 1
+			"gnollHut" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 1
+			"goblinBarracks" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 1
+			"guardhouse" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 1
+			"impCrucible" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 1
+			"magicLantern" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 1
+			"warren" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 1
+			"workshop" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 1
+			"airConflux" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 2
+			"altarOfAir" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 2
+			"archersTower" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 2
+			"dwarfCottage" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 2
+			"graveyard" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 2
+			"hallOfSins" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 2
+			"harpyLoft" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 2
+			"lizardDen" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 2
+			"parapet" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 2
+			"wolfPen" : { "upgrade" : { "cost" : { "mithril" : 2 } } }, // level 2
+			"altarOfWater" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 3
+			"griffinTower" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 3
+			"homestead" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 3
+			"kennels" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 3
+			"orcTower" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 3
+			"pillarOfEyes" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 3
+			"serpentFlyHive" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 3
+			"tombOfSouls" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 3
+			"waterConflux" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 3
+			"altarOfFire" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 4
+			"barracks" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 4
+			"basiliskPit" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 4
+			"demonGate" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 4
+			"enchantedSpring" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 4
+			"estate" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 4
+			"fireConflux" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 4
+			"mageTower" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 4
+			"medusaChapel" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 4
+			"ogreFort" : { "upgrade" : { "cost" : { "mithril" : 3 } } }, // level 4
+			"altarOfEarth" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 5
+			"altarOfWishes" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 5
+			"cliffNest" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 5
+			"dendroidArches" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 5
+			"earthConflux" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 5
+			"gorgonLair" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 5
+			"hellHole" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 5
+			"labyrinth" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 5
+			"mausoleum" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 5
+			"monastery" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 5
+			"altarOfThought" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 6
+			"cyclopsCave" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 6
+			"fireLake" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 6
+			"goldenPavilion" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 6
+			"hallOfDarkness" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 6
+			"manticoreLair" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 6
+			"trainingGrounds" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 6
+			"unicornGlade" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 6
+			"unicornGladeBig" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 6
+			"wyvernNest" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 6
+			"behemothCrag" : { "upgrade" : { "cost" : { "mithril" : 5 } } }, // level 7
+			"cloudTemple" : { "upgrade" : { "cost" : { "mithril" : 5 } } }, // level 7
+			"dragonCave" : { "upgrade" : { "cost" : { "mithril" : 5 } } }, // level 7
+			"dragonCliffs" : { "upgrade" : { "cost" : { "mithril" : 5 } } }, // level 7
+			"dragonVault" : { "upgrade" : { "cost" : { "mithril" : 5 } } }, // level 7
+			"forsakenPalace" : { "upgrade" : { "cost" : { "mithril" : 5 } } }, // level 7
+			"hydraPond" : { "upgrade" : { "cost" : { "mithril" : 5 } } }, // level 7
+			"portalOfGlory" : { "upgrade" : { "cost" : { "mithril" : 5 } } }, // level 7
+			"pyre" : { "upgrade" : { "cost" : { "mithril" : 5 } } } // level 7
+		}
+	},
+	// creatureGeneratorSpecial
+	"core:creatureGeneratorSpecial" : {
+		"types" : {
+			"elementalConflux" : { "upgrade" : { "cost" : { "mithril" : 4 } } }, // level 5
+			"golemFactory" : { "upgrade" : { "cost" : { "mithril" : 4 } } } // level 6
+		}
+	}
+}
